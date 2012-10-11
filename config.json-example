@@ -1,0 +1,18 @@
+{
+	"host": "localhost",
+	"port": 9999,
+	"namespace": "http://localhost:9999/",
+	"repos":
+	{
+		"pdns-svn":
+		{
+			"account": "PowerDNSCommits",
+			"consumerkey": "x",
+			"consumersecret": "x",
+			"accesstoken": "x",
+			"accesstokensecret": "x",
+			"body": "Revision %(rev)s: %(log)s",
+			"url": "http://wiki.powerdns.com/trac/changeset/%(rev)s/"
+		}
+	}
+}
